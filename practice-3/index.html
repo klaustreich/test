@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" class="search" pattern="[A-Za-z]{3,}" placeholder="Введите слово для фильтрации таблицы"  onkeyup="filterTable()">
+
+        <table id="posts">
+            <tr>
+                <th><a href="#" class="userId">userId</a></th>
+                <th class="id"><a href="#" class="id">id</a></th>
+                <th class="title"><a href="#" class="title">title</a></th>
+                <th class="body"><a href="#" class="body">body</a></th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
