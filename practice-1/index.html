@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn--write">Написать</button>
+        <div class="modal">
+            <form class="form-partners" action="#">
+                <div class="form-partners__inner">
+                    <h1 class="title form-partners__title">
+                        Стать партнёром проекта
+                    </h1>
+                    <div class="form-partners__company">
+                        <input class="form-partners__input form-partners__input--company" type="text" required placeholder="АВЦ"
+                            id="input-company">
+                        <label class="form-partners__label" for="input-company">
+                            <span>✱</span>
+                            Название организации
+                        </label>
+                    </div>
+
+                    <div class="form-partners__tel">
+                        <input class="form-partners__input form-partners__input--tel" type="tel" required
+                            placeholder="+7 933 848-34-33" id="input-tel">
+                        <label class="form-partners__label" for="input-tel">
+                            <span>✱</span>
+                            Телефон
+                        </label>
+                    </div>
+
+                    <div class="form-partners__email">
+                        <input class="form-partners__input form-partners__input--email" type="email" required
+                            placeholder="avc@gmail.com" id="input-email">
+                        <label class="form-partners__label" for="input-email">
+                            <span>✱</span>
+                            E-mail
+                        </label>
+                    </div>
+
+                    <div class="form-partners__type-business">
+                        <select class="form-partners__select" required name="type-business" id="input-type-business"> 
+                            <option value="" disabled selected>Экология</option>
+                            <option value="">Экология</option>
+                            <option value="">Экология</option>
+                        </select>
+                        <label class="form-partners__label" for="input-type-business">
+                            <span>✱</span>
+                            Направление
+                        </label>
+                    </div>
+                    
+                    <input class="form-partners__input form-partners__input--site" type="url" placeholder="avc.ru">
+                    <input class="form-partners__input form-partners__input--vk" type="url" placeholder="vk.com/shans">
+                    <input class="form-partners__input form-partners__input--ok" type="url" placeholder="ok.com/shans">
+                    <input class="form-partners__input form-partners__input--fb" type="url" placeholder="facebook.com/shans">
+                    <input class="form-partners__input form-partners__input--insta" type="url" placeholder="instagram.com/shans">
+                    <input class="form-partners__input form-partners__input--youtube" type="url" placeholder="youtube.com/shans">
+                    <input class="form-partners__input" type="text" placeholder="Александров Иван Васильевич">
+                    <button class="btn form-partners__btn" type="submit">Стать партнёром проекта</button>
+                    <a class="form-partners__cancel-link" href="#">Отменить</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
